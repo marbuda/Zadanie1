@@ -196,3 +196,20 @@ footer {
 .info li:hover {
     text-decoration: underline;
 }
+.autocomplete li{
+    list-style-type:none;
+}
+.autocomplete li:hover{
+    background-color:#EEEEEE;
+}
+.autocomplete ul{
+    border-style:groove;
+    border-radius: 25px;
+    max-height: 150px;
+    overflow:hidden;
+    overflow-y: scroll;
+		z-index: 10;
+		position: absolute;
+		width: 15%;
+		background: white;
+}
