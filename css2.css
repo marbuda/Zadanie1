@@ -1,0 +1,108 @@
+body { font-family:  arial,sans-serif; }
+
+.logo2 img {
+   height: 30px;
+   width: 92px;
+   margin: 10px 20px 0px 10px;
+}
+.logo2 { float: left; }
+
+.searchbar2 {
+    border-radius: 1.2em;
+    border: 1px solid #dfe1e5;
+    height: 2.75em;
+    width: 36em;
+    display: flex;
+    align-items: center;
+}
+.searchbar2:hover { box-shadow: 0px 4px 21px -4px rgba(0,0,0,0.75); }
+.searchbar2 input {
+    word-wrap: break-word;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    width: 29em;
+    margin-left: 0.6;
+    height: 100%;
+    padding-left: 0.8em;
+}
+
+.header2 { position: fixed; top: 0%; right: 1%; }
+.header2 ul { list-style-type: none; }
+.header2 li { float: left; margin-left: 10px; }
+
+.login {
+  background: #4285f4;
+  border: 1px solid #4285f4;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: bold;
+  border-radius: 2px;
+  height: 30px;
+  width: 95px;
+  text-align: middle;
+  margin-left: 20px;
+}
+.login:hover { box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.75); }
+
+table {
+    border-radius: 30px;
+    box-shadow: 0 2px 3px gray;
+    text-align: left;
+    position: absolute;
+    left: 5%;
+    margin-top: 25px;
+    width: 36em;
+    background: white;
+    padding: 10px 0px 40px 20px;
+    font-weight: bold;
+}
+
+.fa-th { color: #222; margin-top: 5px; }
+.searchbar2 .fas { padding-right: 5px; }
+.fa-search { color: rgb(66, 133, 244); }
+
+#tabs ul { list-style-type: none; }
+#tabs li { float: left; }
+#tabs li:hover { color: black; }
+#tabs li {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  color: #777;
+  cursor: pointer;
+  margin: 0 8px;
+  font-size: 14px;
+}
+#tabs li a:focus {
+  color: #1a73e8;
+  font-weight: bold;
+  border-bottom: 2px solid #1a73e8;
+}
+#tabs { border-bottom: 1px solid lightgray; padding-bottom: 30px;}
+
+.h3 {
+    font-size: 18px;
+    color: #1a0dab;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.desc {
+    font-size: 14px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+
+.results_link {
+    color: #006621;
+    font-size: 14px;
+    cursor: pointer;
+}
+#results { width: 25%; }
+#results_time {
+    margin-top: 20px;
+    color: #777;
+    font-size: 13px;
+}

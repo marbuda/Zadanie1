@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google</title>
+    <meta charset="UTF-8">
+     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css2.css">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://unpkg.com/vue-router@2.7.0/dist/vue-router.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="wrapper">
+  <div class="logo2">
+      <img id="google2" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" />
+  </div>
+  <div class="searchbar2">
+      <form>
+              <div id="app">
+              <input v-model="inputContent"/>
+              <i class="fas fa-keyboard"></i>
+              <i class="fas fa-search"></i>
+              </div>
+      </form>
+      <v-autocompleter v-bind:input="inputContent" v-if="inputContent"></v-autocompleter>
+   </div>
+    <div class="header2">
+        <ul>
+          <li><a href="https://about.google/intl/pl/products"><i class="fas fa-th"></i></a></li>
+          <li><button class="login">Zaloguj się</button></li>
+        </ul>
+  </div>
+</div>
+<div id="tabs">
+    <nav>
+      <ul>
+        <li>Wszystko</li>
+        <li>Grafika</li>
+        <li>Filmy</li>
+        <li>Mapy</li>
+        <li>Wiadomosci</li>
+        <li>Wiecej</li>
+        <li>Ustawienia</li>
+        <li>Narzedzia</li>
+      </ul>
+    </nav>
+    <router-view></router-view>
+</div>
+<div id="results_time">Około 168 020 641 wyników (0,18 s) </div>
+<div id="results">
+    <p class="h3">AVBA</p class="h3">
+    <a href="http://google.pl" class="results_link">http://www.avba.co.il/</a>
+    <p class="desc">AVBA supports us with dedicated and professional service from the beginning of our purchases and throughout the installation processes. They provide reliable products that are innovative and technologically advanced. Their knowledgeable and patient staff always find the exact solution to our technology needs in a fast and efficient manner</p>
+    <p class="h3">LTDK - Long Term Dark Knight</p class="h3">
+    <a href="http://google.pl" class="results_link">https://www.facebook.com/AVBAHAWKS/</a>
+    <p class="desc">Our long standing relationship with AVBA has enabled us to offer the same high level of service and support to our customers in Israel as we offer directly worldwide.  Their strong technical knowledge and commitment to customer satisfaction enable us to provide a seamless link from manufacturing to delivery</p>
+    <p class="h3">Samorasi</p class="h3">
+    <a href="http://google.pl" class="results_link">http://abc.tvp.pl/</a>
+    <p class="desc">They are truly focused on looking after and supporting both existing and new customers in Israel and giving a friendly personal service.</p>
+    <p class="h3">Important criteria</p class="h3">
+    <a href="http://google.pl" class="results_link">http://www.grupa-abc.com.pl/</a>
+    <p class="desc">For us important criteria for any of our distributors are their customer and service support and knowledge of the electron microscopy (EM) and related markets.AVBA have constantly matched and exceeded our expectations over many years</p>
+    <p class="h3">Israel AVBA 5</p class="h3">
+    <a href="http://google.pl"class="results_link">https://pl.wikipedia.org/wiki/DSA</a>
+    <p class="desc">EM customers in Israel AVBA offer a complete service in terms the combination of microscopes and preparation instruments, with our products integrating completely into these total solution.</p>
+</div>
+<script src="skrypt.js"></script>
+<script src="animals.js"></script>
+</body>
+</html/
